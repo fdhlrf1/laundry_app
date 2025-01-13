@@ -1,0 +1,56 @@
+<?php
+
+return [
+    'accepted' => ':Attribute harus diterima.',
+    'active_url' => ':Attribute bukan URL yang valid.',
+    'after' => ':Attribute harus berupa tanggal setelah :date.',
+    'alpha' => ':Attribute hanya boleh berisi huruf.',
+    'alpha_dash' => ':Attribute hanya boleh berisi huruf, angka, strip, dan garis bawah.',
+    'alpha_num' => ':Attribute hanya boleh berisi huruf dan angka.',
+    'array' => ':Attribute harus berupa array.',
+    'before' => ':Attribute harus berupa tanggal sebelum :date.',
+    'between' => [
+        'numeric' => ':Attribute harus antara :min dan :max.',
+        'file' => ':Attribute harus antara :min dan :max kilobytes.',
+        'string' => ':Attribute harus antara :min dan :max karakter.',
+        'array' => ':Attribute harus memiliki antara :min dan :max item.',
+    ],
+    'boolean' => 'Isian :attribute harus bernilai true atau false.',
+    'confirmed' => 'Konfirmasi :attribute tidak cocok.',
+    'date' => ':Attribute bukan tanggal yang valid.',
+    'date_format' => ':Attribute tidak cocok dengan format :format.',
+    'different' => ':Attribute dan :other harus berbeda.',
+    'digits' => ':Attribute harus :digits digit.',
+    'digits_between' => ':Attribute harus antara :min dan :max digit.',
+    'email' => ':Attribute harus berupa alamat email yang valid.',
+    'exists' => ':Attribute yang dipilih tidak valid.',
+    'image' => ':Attribute harus berupa gambar.',
+    'in' => ':Attribute yang dipilih tidak valid.',
+    'integer' => ':Attribute harus berupa bilangan bulat.',
+    'ip' => ':Attribute harus berupa alamat IP yang valid.',
+    'max' => [
+        'numeric' => ':Attribute tidak boleh lebih dari :max.',
+        'file' => ':Attribute tidak boleh lebih dari :max kilobytes.',
+        'string' => ':Attribute tidak boleh lebih dari :max karakter.',
+        'array' => ':Attribute tidak boleh lebih dari :max item.',
+    ],
+    'min' => [
+        'numeric' => ':Attribute harus minimal :min.',
+        'file' => ':Attribute harus minimal :min kilobytes.',
+        'string' => ':Attribute harus minimal :min karakter.',
+        'array' => ':Attribute harus minimal :min item.',
+    ],
+    'not_in' => ':Attribute yang dipilih tidak valid.',
+    'numeric' => ':Attribute harus berupa angka.',
+    'regex' => 'Format :attribute tidak valid.',
+    'required' => 'Isian :attribute wajib diisi.',
+    'unique' => ':Attribute sudah ada.',
+    'url' => 'Format :attribute tidak valid.',
+
+    // Kustomisasi nama atribut (opsional)
+    'attributes' => [
+        'nama' => 'Nama',
+        'alamat' => 'Alamat',
+        'tlp' => 'Telepon',
+    ],
+];
