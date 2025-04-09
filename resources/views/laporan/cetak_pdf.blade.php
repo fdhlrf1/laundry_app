@@ -191,7 +191,7 @@
                         </tr>
                     @empty
                         <tr>
-                            <td colspan="6" class="no-data">Data Transaksi belum Tersedia.</td>
+                            <td colspan="7" class="no-data">Data Transaksi belum Tersedia.</td>
                         </tr>
                     @endforelse
                 </tbody>

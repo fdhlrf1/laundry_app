@@ -157,7 +157,7 @@
                             </tr>
                         @empty
                             <tr>
-                                <td colspan="6"
+                                <td colspan="7"
                                     class="px-6 py-4 text-sm text-center text-gray-500 whitespace-nowrap bg-gray-50">
                                     Data Transaksi belum Tersedia.
                                 </td>
