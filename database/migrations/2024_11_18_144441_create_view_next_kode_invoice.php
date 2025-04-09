@@ -12,6 +12,8 @@ return new class extends Migration
      */
     public function up(): void
     {
+        DB::statement('DROP VIEW IF EXISTS view_next_kode_invoice');
+
         DB::statement(
             "CREATE VIEW view_next_kode_invoice AS
         SELECT (SELECT IF(COUNT(*) = 0, 'INV0001',

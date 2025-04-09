@@ -1,20 +1,20 @@
-@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "tw-elements/css/tw-elements.min.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-    font-family: 'Lato_Regular';
-     src: url('../../public/fonts/Lato/Lato-Regular.ttf');
+    font-family: "Lato_Regular";
+    src: url("../../public/fonts/Lato/Lato-Regular.ttf");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'OpenSans';
-     src: url('../../public/fonts/Open_Sans/static/OpenSans-Regular.ttf');
+    font-family: "OpenSans";
+    src: url("../../public/fonts/Open_Sans/static/OpenSans-Regular.ttf");
     font-weight: 400;
     font-style: normal;
 }

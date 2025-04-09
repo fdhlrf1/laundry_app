@@ -333,7 +333,7 @@
                                     </tr>
                                 @empty
                                     <tr>
-                                        <td colspan="7" class="px-0 py-0 text-center bg-red-100">
+                                        <td colspan="8" class="px-0 py-0 text-center bg-red-100">
                                             <div
                                                 class="px-3 py-4 text-red-700 bg-red-100 border border-red-400 rounded-sm">
                                                 Data Transaksi belum Tersedia.
