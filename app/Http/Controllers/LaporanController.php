@@ -31,7 +31,7 @@ class LaporanController extends Controller
         }
 
         return view('laporan.laporan', [
-            'title' => 'Laporan Transaksi',
+            'title' => 'Laporan dan Transaksi',
             'FADHIL_transaksis' => $FADHIL_transaksis,
         ]);
     }

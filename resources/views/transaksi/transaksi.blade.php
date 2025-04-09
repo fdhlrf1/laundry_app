@@ -12,7 +12,7 @@
     <div class="p-6">
         <div class="overflow-hidden bg-white shadow-sm sm:rounded-lg">
             <div class="p-6 bg-white border-b border-gray-200">
-                <h2 class="mb-6 text-2xl font-semibold">Transaksi Laundry</h2>
+                <h2 class="mb-6 text-2xl font-semibold">Tambah Transaksi</h2>
                 {{-- <p class="mb-6 text-gray-600">Isi formulir untuk memulai transaksi laundry</p> --}}
                 <form action="{{ route('transaksi.store') }}" method="POST" id="form-transaksi" class="space-y-6">
                     @csrf

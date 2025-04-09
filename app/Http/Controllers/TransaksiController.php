@@ -33,7 +33,7 @@ class TransaksiController extends Controller
 
         $FADHIL_kode_invoice =  DB::table('view_next_kode_invoice')->value('nextkodeinvoice');
         return view('transaksi.transaksi', [
-            'title' => 'Tambah Transaksi',
+            'title' => 'Transaksi Laundry',
             'FADHIL_pakets' => $FADHIL_pakets,
             'FADHIL_members' => $FADHIL_members,
             'FADHIL_kode_invoice' => $FADHIL_kode_invoice,

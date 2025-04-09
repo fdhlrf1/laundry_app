@@ -76,7 +76,7 @@
                         d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z">
                     </path>
                 </svg>
-                Transaksi
+                Transaksi Laundry
             </x-side-link>
         @endif
         <x-side-link href="{{ route('laporan') }}" :active="request()->is('laporan*')">
@@ -85,9 +85,9 @@
                     d="M4 4h16v16H4V4zm4 4h8M8 12h8M8 16h4" />
             </svg>
             @if (Auth()->user()->role == 'super_admin' || Auth()->user()->role == 'admin' || Auth()->user()->role == 'kasir')
-            Laporan dan Transaksi
+                Laporan dan Transaksi
             @elseif (Auth()->user()->role == 'owner' || Auth()->user()->role == 'super_owner')
-            Laporan
+                Laporan
             @endif
 
         </x-side-link>
