@@ -1,162 +1,140 @@
-<<<<<<< HEAD
-# laundryPro
+<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="_Aplikasi_Laundry_MultiUser_0"></a>🛒 Aplikasi Laundry Multi-User</h1>
+<p class="has-line-data" data-line-start="2" data-line-end="8"><img src="https://img.shields.io/badge/Laravel-10.x-red" alt="Laravel Version"><br>
+<img src="https://img.shields.io/badge/PHP-%5E8.1-blue" alt="PHP Version"><br>
+<img src="https://img.shields.io/badge/Style-TailwindCSS-38bdf8" alt="TailwindCSS"><br>
+<img src="https://img.shields.io/badge/Database-MySQL-yellow?logo=mysql" alt="MySQL"><br>
+<img src="https://img.shields.io/badge/Test%20Coverage-90%25-brightgreen" alt="Coverage"><br>
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></p>
+<p class="has-line-data" data-line-start="9" data-line-end="10">Aplikasi pengelolaan laundry berbasis Laravel. digunakan untuk membuat transaksi laundry, melacak status cucian, mengelola dan me manajemen outlet, mengelola laporan transaksi laundry</p>
+<hr>
+<h2 class="code-line" data-line-start=13 data-line-end=14 ><a id="_Fitur_Utama_13"></a>🛠️ Fitur Utama</h2>
+<ul>
+<li class="has-line-data" data-line-start="15" data-line-end="16">✅ Manajemen Outlet Laundry</li>
+<li class="has-line-data" data-line-start="16" data-line-end="17">✅ Transaksi Laundry</li>
+<li class="has-line-data" data-line-start="17" data-line-end="18">✅ Melacak Status setiap Cucian</li>
+<li class="has-line-data" data-line-start="18" data-line-end="19">✅ Mengelola Laporan setiap Transaksi Laundry</li>
+</ul>
+<hr>
+<h2 class="code-line" data-line-start=21 data-line-end=22 ><a id="_Prasyarat_21"></a>💡 Prasyarat</h2>
+<p class="has-line-data" data-line-start="23" data-line-end="24">Sebelum memulai, pastikan kamu sudah menginstall:</p>
+<ul>
+<li class="has-line-data" data-line-start="25" data-line-end="26">🐘 PHP    &gt;= 8.1  Disarankan versi terbaru</li>
+<li class="has-line-data" data-line-start="26" data-line-end="27">🎼 Composer   -   Untuk mengelola dependensi PHP</li>
+<li class="has-line-data" data-line-start="27" data-line-end="28">🧰 Node.js    -   Digunakan bersama Tailwind + Vite</li>
+<li class="has-line-data" data-line-start="28" data-line-end="29">📦 npm    -   Biasanya sudah include di Node.js</li>
+<li class="has-line-data" data-line-start="29" data-line-end="31">🐬 MySQL / 🐳 MariaDB -   Untuk database aplikasi</li>
+</ul>
+<hr>
+<h2 class="code-line" data-line-start=33 data-line-end=34 ><a id="_Instalasi_dan_Konfigurasi_33"></a>🚀 Instalasi dan Konfigurasi</h2>
+<h3 class="code-line" data-line-start=35 data-line-end=36 ><a id="_1_Clone_Project_35"></a>🧱 1. Clone Project</h3>
+<pre><code class="has-line-data" data-line-start="38" data-line-end="41" class="language-bash">git <span class="hljs-built_in">clone</span> https://github.com/username-kamu/nama-repo.git
+<span class="hljs-built_in">cd</span> nama-repo
+</code></pre>
+<h3 class="code-line" data-line-start=42 data-line-end=43 ><a id="_2_Install_Depedency_42"></a>📦 2. Install Depedency</h3>
+<pre><code class="has-line-data" data-line-start="44" data-line-end="47" class="language-bash">composer install
+npm install
+</code></pre>
+<h3 class="code-line" data-line-start=48 data-line-end=49 ><a id="_3_Setup_File_env_48"></a>⚙️ 3. Setup File <code>.env</code></h3>
+<pre><code class="has-line-data" data-line-start="50" data-line-end="52" class="language-bash">cp .env.example .env
+</code></pre>
+<h3 class="code-line" data-line-start=53 data-line-end=54 ><a id="_4_Konfigurasi_File_env_53"></a>🛠️ 4. Konfigurasi File <code>.env</code></h3>
+<p class="has-line-data" data-line-start="55" data-line-end="56">Setelah menyalin file <code>.env</code>, pastikan kamu mengatur konfigurasi dasar seperti berikut:</p>
+<pre><code class="has-line-data" data-line-start="58" data-line-end="68" class="language-env">APP_NAME=&quot;Laundry&quot;
+APP_URL=http://localhost:8000
 
-
-
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.com/fadhilrafi/laundrypro.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.com/fadhilrafi/laundrypro/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
-=======
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
->>>>>>> 95b03db (Initial commit)
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laundry
+DB_USERNAME=root
+DB_PASSWORD=
+</code></pre>
+<p class="has-line-data" data-line-start="68" data-line-end="69">⚠️ Pastikan nama database (DB_DATABASE) sudah dibuat di MySQL kamu sebelum menjalankan migrasi.</p>
+<h3 class="code-line" data-line-start=70 data-line-end=71 ><a id="_5_Generate_Key_70"></a>🔐 5. Generate Key</h3>
+<pre><code class="has-line-data" data-line-start="72" data-line-end="74" class="language-bash">php artisan key:generate
+</code></pre>
+<h3 class="code-line" data-line-start=75 data-line-end=76 ><a id="_6_Setup_Database_75"></a>🗄 6. Setup Database</h3>
+<pre><code class="has-line-data" data-line-start="77" data-line-end="79" class="language-bash">php artisan migrate --seed
+</code></pre>
+<h3 class="code-line" data-line-start=80 data-line-end=81 ><a id="_7_Compile_Aset_Frontend_TailwindCSS__Vite_80"></a>🌐 7. Compile Aset Frontend (TailwindCSS &amp; Vite)</h3>
+<pre><code class="has-line-data" data-line-start="82" data-line-end="84" class="language-bash">npm run dev
+</code></pre>
+<h3 class="code-line" data-line-start=85 data-line-end=86 ><a id="_8_Jalankan_Projek_85"></a>▶️ 8. Jalankan Projek</h3>
+<pre><code class="has-line-data" data-line-start="87" data-line-end="89" class="language-bash">php artisan serve
+</code></pre>
+<hr>
+<h2 class="code-line" data-line-start=92 data-line-end=93 ><a id="_Akun_Login_Default_92"></a>🔐 Akun Login Default</h2>
+<p class="has-line-data" data-line-start="94" data-line-end="95">Setelah proses seeding selesai (<code>php artisan migrate --seed</code>), kamu dapat login ke aplikasi menggunakan akun berikut:</p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Role</th>
+<th>Username</th>
+<th>Password</th>
+<th>Nama Outlet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Super Admin</td>
+<td>superadmin</td>
+<td>superadmin</td>
+<td>Laundry Jaya Pusat</td>
+</tr>
+<tr>
+<td>Super Owner</td>
+<td>owner</td>
+<td>owner</td>
+<td>Laundry Jaya Pusat</td>
+</tr>
+<tr>
+<td>Admin</td>
+<td>admin</td>
+<td>admin</td>
+<td>Kilat Laundry Service</td>
+</tr>
+<tr>
+<td>Kasir</td>
+<td>kasir</td>
+<td>kasir</td>
+<td>Kilat Laundry Service</td>
+</tr>
+<tr>
+<td>Owner</td>
+<td>owner</td>
+<td>owner</td>
+<td>Kilat Laundry Service</td>
+</tr>
+<tr>
+<td>Admin</td>
+<td>admin2</td>
+<td>admin2</td>
+<td>AquaFresh Laundry</td>
+</tr>
+<tr>
+<td>Kasir</td>
+<td>kasir2</td>
+<td>kasir2</td>
+<td>AquaFresh Laundry</td>
+</tr>
+<tr>
+<td>Owner</td>
+<td>owner2</td>
+<td>owner2</td>
+<td>AquaFresh Laundry</td>
+</tr>
+</tbody>
+</table>
+<p class="has-line-data" data-line-start="107" data-line-end="108">⚠️ <strong>Penting:</strong> Pastikan untuk segera mengganti password akun-akun default ini demi keamanan, terutama jika aplikasi diunggah ke server publik.</p>
+<hr>
+<h2 class="code-line" data-line-start=111 data-line-end=112 ><a id="Lisensi_111"></a>Lisensi</h2>
+<p class="has-line-data" data-line-start="113" data-line-end="114">The Laravel framework is open-sourced software licensed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.</p>
+<h2 class="code-line" data-line-start=115 data-line-end=116 ><a id="Kredit_115"></a>Kredit</h2>
+<p class="has-line-data" data-line-start="116" data-line-end="117">Proyek ini dikembangkan oleh:</p>
+<ul>
+<li class="has-line-data" data-line-start="118" data-line-end="119">👤 Fadhil Rafi Fauzan</li>
+<li class="has-line-data" data-line-start="119" data-line-end="120">📧 Email: [fadhilrafifauzan.17@gmail.com]</li>
+<li class="has-line-data" data-line-start="120" data-line-end="122">🐙 GitHub: <a href="http://github.com/fdhlrf.1">github.com/fdhlrf.1</a></li>
+</ul>
+<p class="has-line-data" data-line-start="122" data-line-end="124">© 2024 Laundry Multi User — Hak Cipta Dilindungi Undang-Undang.<br>
+Terima kasih telah menggunakan aplikasi ini! ⭐</p>
