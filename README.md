@@ -1,4 +1,4 @@
-<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="_Aplikasi_Laundry_MultiUser_0"></a>🛒 Aplikasi Laundry Multi-User</h1>
+<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="_Aplikasi_Laundry_MultiUser_0"></a>🧺 Aplikasi Laundry Multi-User</h1>
 <p class="has-line-data" data-line-start="2" data-line-end="8"><img src="https://img.shields.io/badge/Laravel-10.x-red" alt="Laravel Version"><br>
 <img src="https://img.shields.io/badge/PHP-%5E8.1-blue" alt="PHP Version"><br>
 <img src="https://img.shields.io/badge/Style-TailwindCSS-38bdf8" alt="TailwindCSS"><br>
