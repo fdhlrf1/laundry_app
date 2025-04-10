@@ -133,7 +133,7 @@ DB_PASSWORD=
 <p class="has-line-data" data-line-start="116" data-line-end="117">Proyek ini dikembangkan oleh:</p>
 <ul>
 <li class="has-line-data" data-line-start="118" data-line-end="119">👤 Fadhil Rafi Fauzan</li>
-<li class="has-line-data" data-line-start="119" data-line-end="120">📧 Email: [fadhilrafifauzan.17@gmail.com]</li>
+<li class="has-line-data" data-line-start="119" data-line-end="120">📧 Email: fadhilrafifauzan.17@gmail.com</li>
 <li class="has-line-data" data-line-start="120" data-line-end="122">🐙 GitHub: <a href="http://github.com/fdhlrf.1">github.com/fdhlrf.1</a></li>
 </ul>
 <p class="has-line-data" data-line-start="122" data-line-end="124">© 2024 Laundry Multi User — Hak Cipta Dilindungi Undang-Undang.<br>
